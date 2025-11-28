@@ -25,6 +25,8 @@ The simulation uses a real-world road network from **Nanning City, Guangxi, Chin
 - **North-South Span:** 5.84 km
 - **Total Area:** ~56.32 km²
 
+- ![Road](https://github.com/aleIssac/Tribft-OMNeT/blob/main/R.png?raw=true)
+
 ## Project Structure
 
 ```
