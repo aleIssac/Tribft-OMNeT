@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Doubled Routes for Naning Network (28 flows)
+Strategy: Original 14 flows + 14 reverse flows (bidirectional traffic)
+More conservative than 70 flows, but guaranteed to work
+-->
+<routes>
+    <vType id="car" accel="2.6" decel="4.5" sigma="0.5" length="5" maxSpeed="70" color="1,1,0"/>
+
+    <!-- ========== Original 14 Flows ========== -->
+    <flow id="flow_1" type="car" from="1036842919#0" to="395213644#3" begin="0" end="100" number="100" />
+    <flow id="flow_2" type="car" from="395684217#0" to="395689321#4" begin="0" end="100" number="85" />
+    <flow id="flow_3" type="car" from="1053249289#0" to="253642695#4" begin="0" end="100" number="90" />
+    <flow id="flow_4" type="car" from="810345637#0" to="1044653788#3" begin="0" end="100" number="112" />
+    <flow id="flow_5" type="car" from="394294430#0" to="394074169#4" begin="0" end="100" number="80" />
+    <flow id="flow_6" type="car" from="-915070931#4" to="1044653778#1" begin="0" end="100" number="87" />
+    <flow id="flow_7" type="car" from="548408579#0" to="1043631321#2" begin="0" end="100" number="125" />
+    <flow id="flow_8" type="car" from="1043631323#0" to="389179062#1" begin="0" end="100" number="100" />
+    <flow id="flow_9" type="car" from="389201742#1" to="970921656#0" begin="0" end="100" number="92" />
+    <flow id="flow_10" type="car" from="1039491509#0" to="389347263#1" begin="0" end="100" number="95" />
+    <flow id="flow_11" type="car" from="1036187475#1" to="548414019#3" begin="0" end="100" number="97" />
+    <flow id="flow_12" type="car" from="548414020#0" to="395680056#1" begin="0" end="100" number="84" />
+    <flow id="flow_13" type="car" from="819253429#0" to="526790515#0" begin="0" end="100" number="100" />
+    <flow id="flow_14" type="car" from="548423293#0" to="548408518#1" begin="0" end="100" number="75" />
+
+    <!-- ========== Reverse Flows (14) ========== -->
+    <flow id="flow_15" type="car" from="395213644#3" to="1036842919#0" begin="0" end="100" number="95" />
+    <flow id="flow_16" type="car" from="395689321#4" to="395684217#0" begin="0" end="100" number="80" />
+    <flow id="flow_17" type="car" from="253642695#4" to="1053249289#0" begin="0" end="100" number="85" />
+    <flow id="flow_18" type="car" from="1044653788#3" to="810345637#0" begin="0" end="100" number="105" />
+    <flow id="flow_19" type="car" from="394074169#4" to="394294430#0" begin="0" end="100" number="75" />
+    <flow id="flow_20" type="car" from="1044653778#1" to="-915070931#4" begin="0" end="100" number="82" />
+    <flow id="flow_21" type="car" from="1043631321#2" to="548408579#0" begin="0" end="100" number="120" />
+    <flow id="flow_22" type="car" from="389179062#1" to="1043631323#0" begin="0" end="100" number="95" />
+    <flow id="flow_23" type="car" from="970921656#0" to="389201742#1" begin="0" end="100" number="87" />
+    <flow id="flow_24" type="car" from="389347263#1" to="1039491509#0" begin="0" end="100" number="90" />
+    <flow id="flow_25" type="car" from="548414019#3" to="1036187475#1" begin="0" end="100" number="92" />
+    <flow id="flow_26" type="car" from="395680056#1" to="548414020#0" begin="0" end="100" number="80" />
+    <flow id="flow_27" type="car" from="526790515#0" to="819253429#0" begin="0" end="100" number="95" />
+    <flow id="flow_28" type="car" from="548408518#1" to="548423293#0" begin="0" end="100" number="70" />
+</routes>
+
+

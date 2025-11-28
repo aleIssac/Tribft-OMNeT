@@ -1,0 +1,41 @@
+# Build outputs
+out/
+*.o
+*.a
+*.so
+*.dll
+*.exe
+
+# OMNeT++ generated files
+*_m.cc
+*_m.h
+*_sm.cc
+*_sm.h
+
+# IDE files
+.project
+.cproject
+.settings/
+.metadata/
+*.vc.db
+*.vc.opendb
+
+# Simulation results
+results/
+*.sca
+*.vec
+*.vci
+*.elog
+
+# Temporary files
+*.log
+*.tmp
+*.bak
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Performance data
+performance_data/

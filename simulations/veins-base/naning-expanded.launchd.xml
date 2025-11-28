@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--
+Naning Dense Traffic Configuration
+14 flows with 3x vehicle density for better coverage
+-->
+<launch>
+    <copy file="naning.net.xml" />
+    <copy file="naning-dense.rou.xml" />
+    <copy file="rsu.add.xml" />
+    <copy file="naning-dense.sumo.cfg" type="config" />
+</launch>
+

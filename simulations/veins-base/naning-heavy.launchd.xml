@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!--
+TriBFT - Naning Heavy Traffic Configuration
+更多车辆 + 更多提案
+-->
+<launch>
+    <copy file="road-networks/naning/naning.net.xml" />
+    <copy file="road-networks/naning/naning.rou.xml" />
+    <copy file="road-networks/naning/random_trips.rou.xml" />
+    <copy file="road-networks/naning/rsu.add.xml" />
+    <!-- 使用大流量配置 -->
+    <copy file="road-networks/naning/naning-heavy.sumo.cfg" type="config" />
+</launch>
+
+

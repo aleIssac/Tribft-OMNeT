@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Dense Traffic Routes for Naning Network
+Strategy: Same 14 flows, but 3x more vehicles for higher density
+This ensures better coverage within existing routes
+-->
+<routes>
+    <vType id="car" accel="2.6" decel="4.5" sigma="0.5" length="5" maxSpeed="70" color="1,1,0"/>
+
+    <!-- Original 14 flows with 3x vehicle density -->
+    <flow id="flow_1" type="car" from="1036842919#0" to="395213644#3" begin="0" end="100" number="300" />
+    <flow id="flow_2" type="car" from="395684217#0" to="395689321#4" begin="0" end="100" number="255" />
+    <flow id="flow_3" type="car" from="1053249289#0" to="253642695#4" begin="0" end="100" number="270" />
+    <flow id="flow_4" type="car" from="810345637#0" to="1044653788#3" begin="0" end="100" number="336" />
+    <flow id="flow_5" type="car" from="394294430#0" to="394074169#4" begin="0" end="100" number="240" />
+    <flow id="flow_6" type="car" from="-915070931#4" to="1044653778#1" begin="0" end="100" number="261" />
+    <flow id="flow_7" type="car" from="548408579#0" to="1043631321#2" begin="0" end="100" number="375" />
+    <flow id="flow_8" type="car" from="1043631323#0" to="389179062#1" begin="0" end="100" number="300" />
+    <flow id="flow_9" type="car" from="389201742#1" to="970921656#0" begin="0" end="100" number="276" />
+    <flow id="flow_10" type="car" from="1039491509#0" to="389347263#1" begin="0" end="100" number="285" />
+    <flow id="flow_11" type="car" from="1036187475#1" to="548414019#3" begin="0" end="100" number="291" />
+    <flow id="flow_12" type="car" from="548414020#0" to="395680056#1" begin="0" end="100" number="252" />
+    <flow id="flow_13" type="car" from="819253429#0" to="526790515#0" begin="0" end="100" number="300" />
+    <flow id="flow_14" type="car" from="548423293#0" to="548408518#1" begin="0" end="100" number="225" />
+</routes>
+
+

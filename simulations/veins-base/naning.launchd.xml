@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!--
+TriBFT - Naning Road Network Configuration
+Area: 9.64km × 5.84km (56.32 km²)
+使用测试配置（200秒，减少车辆数量）
+-->
+<launch>
+    <copy file="naning.net.xml" />
+    <copy file="naning.rou.xml" />
+    <copy file="rsu.add.xml" />
+    <!-- 使用测试配置：只仿真200秒 -->
+    <copy file="naning-test.sumo.cfg" type="config" />
+</launch>

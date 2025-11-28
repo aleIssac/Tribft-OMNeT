@@ -1,0 +1,3 @@
+# Exclude problematic Veins files that cause package name conflicts
+# This allows us to use Veins NED files from source without conflicts
+
